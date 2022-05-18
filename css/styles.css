@@ -1,0 +1,148 @@
+/* basic styles */
+/* basic color #757575; */
+/* secondary color #212121 */
+/* logo color #000000 */
+/* white color #FFFFFF */
+/* secodary white color rgba(255, 255, 255, 0.6) */
+/* accent color #2196F3 */
+/* background color #E5E5E5 */
+/* secondary bgd color #F5F4FA */
+/* hero bgd color #F5F4FA */
+
+:root {
+  --brand-color: #757575;
+  --brand-bgc: #ffffff;
+  --brand-accent: #2196f3;
+}
+
+/* body */
+.page {
+  background-color: var(--brand-bgc);
+  color: var(--brand-color);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+/* header */
+.header {
+}
+.header-nav {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.logo-link {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+
+  text-decoration: none;
+}
+.logo-blue {
+  color: var(--brand-accent);
+}
+.logo-black {
+  color: #000000;
+}
+.nav-list {
+  list-style: none;
+}
+.nav-link-accent {
+  color: var(--brand-accent);
+  text-decoration: none;
+}
+.nav-link {
+  color: #000000;
+
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  text-decoration: none;
+}
+
+.nav-list .nav-link:hover,
+.nav-list .nav-link:focus {
+  color: var(--brand-accent);
+}
+
+/* header-contacts */
+.header-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  list-style: none;
+}
+.header-item > a {
+  text-decoration: none;
+}
+.header-mail:hover,
+.header-mail:focus {
+  color: var(--brand-accent);
+}
+.header-tel:hover,
+.header-tel:focus {
+  color: var(--brand-accent);
+}
+.header-mail {
+  color: var(--brand-accent);
+}
+.header-tel {
+  color: var(--brand-color);
+}
+
+/* footer */
+
+.footer {
+  background-color: #2f303a;
+}
+.footer-logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+
+  text-decoration: none;
+}
+.logo-blue {
+  color: #2196f3;
+}
+.logo-white {
+  color: #ffffff;
+}
+.address-list {
+  list-style: none;
+  font-style: normal;
+}
+.address-link {
+  color: #ffffff;
+
+  text-decoration: none;
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: var(--brand-accent);
+}
+
+.footer-mail,
+.footer-tel {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.footer-mail:hover,
+.footer-mail:focus {
+  color: var(--brand-accent);
+}
+
+.footer-tel:hover,
+.footer-tel:focus {
+  color: var(--brand-accent);
+}
