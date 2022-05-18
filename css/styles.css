@@ -5,26 +5,29 @@
 /* white color #FFFFFF */
 /* secodary white color rgba(255, 255, 255, 0.6) */
 /* accent color #2196F3 */
-/* background color #E5E5E5 */
+/* background color #ffffff */
 /* secondary bgd color #F5F4FA */
 /* hero bgd color #F5F4FA */
 
 :root {
-  --brand-color: #757575;
-  --brand-bgc: #ffffff;
+  --basic-color: #757575;
+  --basic-bgc: #ffffff;
   --brand-accent: #2196f3;
 }
 
 /* body */
 .page {
-  background-color: var(--brand-bgc);
-  color: var(--brand-color);
+  background-color: var(--basic-bgc);
+  color: var(--basic-color);
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+button {
+  cursor: pointer;
 }
 /* header */
 .header {
@@ -94,7 +97,55 @@
   color: var(--brand-accent);
 }
 .header-tel {
-  color: var(--brand-color);
+  color: var(--basic-color);
+}
+/* hero */
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  color: #ffffff;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero-button {
+  color: #ffffff;
+  background-color: var(--brand-accent);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+/* advantages */
+.advantages {
+  display: none;
+}
+.advantages-title {
+  color: #212121;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+
+  text-transform: uppercase;
+}
+
+/* opportunities */
+.opportunities {
+  color: #212121;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
 
 /* footer */
@@ -116,14 +167,18 @@
 .logo-white {
   color: #ffffff;
 }
+
+.address a {
+  font-style: normal;
+  text-decoration: none;
+}
+
 .address-list {
   list-style: none;
-  font-style: normal;
 }
+
 .address-link {
   color: #ffffff;
-
-  text-decoration: none;
 }
 
 .address-link:hover,
@@ -134,7 +189,6 @@
 .footer-mail,
 .footer-tel {
   color: rgba(255, 255, 255, 0.6);
-  text-decoration: none;
 }
 
 .footer-mail:hover,
