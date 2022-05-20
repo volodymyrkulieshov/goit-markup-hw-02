@@ -126,7 +126,7 @@ button {
 }
 .hero-button:hover,
 .hero-button:focus {
-  color: #757575;
+  background-color: #5996f3;
 }
 
 /* -----------------BENEFITS------------------------------- */
