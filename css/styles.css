@@ -42,6 +42,7 @@ button {
 .list {
   list-style: none;
 }
+
 /* -----------------------------HEADER------------------------- */
 .header {
 }
@@ -63,9 +64,9 @@ button {
   color: #000000;
 }
 
-.nav-link-accent {
+/* .nav-link-accent {
   color: var(--brand-accent);
-}
+} */
 
 .nav-link {
   color: var(--title-color);
@@ -74,29 +75,33 @@ button {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-
+.current {
+  color: var(--brand-accent);
+}
 .nav-list .nav-link:hover,
 .nav-list .nav-link:focus {
   color: var(--brand-accent);
 }
 
 /* -------------------header-contacts---------------------- */
-.header-list {
+.header-list,
+.header-item,
+.header-tel,
+.header-mail {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  color: var(--basic-color);
 }
 
 .header-tel:hover,
 .header-tel:focus {
   color: var(--brand-accent);
 }
-.header-mail {
+.header-mail:hover,
+.header-mail:focus {
   color: var(--brand-accent);
-}
-.header-tel {
-  color: var(--basic-color);
 }
 /* ------------------------HERO------------------------ */
 .hero {
@@ -126,7 +131,7 @@ button {
 }
 .hero-button:hover,
 .hero-button:focus {
-  background-color: #5996f3;
+  background-color: #0087f5;
 }
 
 /* -----------------BENEFITS------------------------------- */
